@@ -30,7 +30,7 @@ describe('<RecipeItem />', () => {
     expect(container).to.have.className('RecipeItem')
   })
 
-  it('contains a the title', () => {
+  it('contains the title', () => {
     expect(container.find('h1')).to.have.text(recipe.title)
   })
 })
